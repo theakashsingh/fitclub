@@ -46,7 +46,7 @@ const ContactUs = ({setSelectedPage}: Props) => {
                     hidden:{opacity:0, y:50},
                     visible:{opacity:1, y:0}
                 }}>
-                    <form target="_blank" onSubmit={onSubmit} action="https://formsubmit.co/6835805b1b8f990603ea3b5e4a6d13d8" method="POST">
+                    <form target="_blank" onSubmit={onSubmit} action="https://formsubmit.co/mr.singhaksh@gmail.com" method="POST">
                         {/* NAME FIELD INPUT */}
                         <input type="text" className={inputStyles} placeholder="NAME" {...register("name",{
                             required:true,
